@@ -1,0 +1,43 @@
+@font-face {
+    font-family: proxima;
+    src: url(../proxima_ssv/Proxima\ Nova\ Bold.otf);
+}
+@font-face {
+    font-family: vazir-extraBold;
+    src: url(../fonts/ttf/Vazirmatn-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: vazir-bold;
+    src: url(../fonts/ttf/Vazirmatn-Bold.ttf);
+}
+
+header{
+    
+    padding : 100px;
+    background : linear-gradient(to right ,rgb(250, 214, 52), rgb(63, 28, 5));
+    background-position: left;
+    color : #fff;
+}
+
+.s-btn{
+    background : rgb(94, 240, 179);
+    border-radius: 25px;
+    width : 90px;
+}
+
+h1{
+    font-family: vazir-extraBold;
+}
+
+h2{
+    font-family: vazir-bold;
+    color :rgb(154, 103, 235);
+}
+
+
+@media screen and (max-width : 767px) {
+    h1{
+        margin-top: 30px;
+    }
+}
