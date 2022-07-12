@@ -31,9 +31,19 @@ h1{
     font-size: 50px;
 }
 
+.modal-box{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 h2{
     font-family: vazir-bold;
     color :rgb(154, 103, 235);
+}
+.about-us{
+    background : #c4f3e7;
 }
 
 input, textarea{
